@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//テスト用
+Route::get('home', function() {
+    return view('home');
+});
+
 //ユーザ登録
 Route::get('signup', 'Auth\RegisterController@showRegistrationForm')->name('signup.get');
 Route::post('signup', 'Auth\RegisterController@register')->name('signup.post');
