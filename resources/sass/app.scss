@@ -1,1 +1,26 @@
-//
+@charset "UTF-8";
+
+$base-color: #f1efe0;
+$main-color: #ae3bf0;
+
+body {
+  background-color: $base-color!important;
+
+  header {
+    background-color: $main-color!important;
+  }
+  
+  .post-content {
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+  
+  .react-icon {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .faved {
+    color: #ebb92f;
+  }
+}

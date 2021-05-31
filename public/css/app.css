@@ -1,0 +1,22 @@
+body {
+  background-color: #f1efe0 !important;
+}
+
+body header {
+  background-color: #ae3bf0 !important;
+}
+
+body .post-content {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+body .react-icon {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+body .faved {
+  color: #ebb92f;
+}
+
